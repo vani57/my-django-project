@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "app_function": "employee.wsgi.application",
+        "aws_region": "us-east-1",
+        "django_settings": "employee.settings",
+        "exclude": [
+            "*.pyc",
+            "__pycache__",
+            "*.egg-info"
+        ],
+        "profile_name": "default",
+        "project_name": "django-api-demo",
+        "runtime": "python3.11",
+        "s3_bucket": "zappa-d2oeupf9d"
+    }
+}
